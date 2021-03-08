@@ -1,0 +1,95 @@
+<Updates>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>org.molsketch</Name>
+  <DisplayName>Molsketch</DisplayName>
+  <Description>Molsketch main component</Description>
+  <Version>0.7.1</Version>
+  <ReleaseDate>2021-03-08</ReleaseDate>
+  <ForcedInstallation>true</ForcedInstallation>
+  <ExpandedByDefault>true</ExpandedByDefault>
+  <Script>molsketch-setup-actions.qs</Script>
+  <UpdateFile CompressedSize="5841911" UncompressedSize="16319140" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <UserInterfaces>PostInstallActions.ui</UserInterfaces>
+  <Licenses>
+   <License file="gpl-2-0.txt" name="GNU Public License Version 2"/>
+  </Licenses>
+  <SHA1>dc8e32447b5b3b3212d29865bc575e6de4f2124b</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>org.molsketch.openbabel.adapter</Name>
+  <DisplayName>OpenBabel Adapter</DisplayName>
+  <Description>Small adapter library required for Molsketch to utilize OpenBabel.</Description>
+  <Version>0.7.1</Version>
+  <ReleaseDate>2021-03-08</ReleaseDate>
+  <AutoDependOn>org.molsketch,org.openbabel</AutoDependOn>
+  <Virtual>true</Virtual>
+  <Script>adapter-registry-entry.qs</Script>
+  <UpdateFile CompressedSize="5255365" UncompressedSize="16110120" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>fc27cd8e9856d478e2bd92ec826e967d43a72b42</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>org.openbabel</Name>
+  <DisplayName>OpenBabel</DisplayName>
+  <Description>OpenBabel chemical toolbox. This component is required in order to import or export drawings from or to other chemical file formats and for cleaning up structures or importing structures from WikiData.
+    See: {external-link}='https://github.com/openbabel/openbabel'</Description>
+  <Version>3.1.1</Version>
+  <ReleaseDate>2020-05-08</ReleaseDate>
+  <Dependencies>org.molsketch</Dependencies>
+  <ExpandedByDefault>true</ExpandedByDefault>
+  <Default>true</Default>
+  <UpdateFile CompressedSize="0" UncompressedSize="0" OS="Any"/>
+  <Licenses>
+   <License file="gcc-runtime-exception.txt" name="GCC Runtime Exception"/>
+   <License file="zpl.txt" name="Zope Public License"/>
+  </Licenses>
+  <SHA1>797593ebb2d73e02dfdaccf075a50a84553ff8d6</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>org.openbabel.formats</Name>
+  <DisplayName>OpenBabel formats</DisplayName>
+  <Description>Chemical format library files (required for importing/exporting from/to various chemical file formats).</Description>
+  <Version>3.1.1</Version>
+  <ReleaseDate>2020-05-08</ReleaseDate>
+  <Dependencies>org.openbabel.mainlib</Dependencies>
+  <Default>true</Default>
+  <Script>openbabel-format-registry-entry.qs</Script>
+  <UpdateFile CompressedSize="1312238" UncompressedSize="8573992" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>d3575ea6d3f229e993daa89eedf3471f27d15609</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>org.openbabel.mainlib</Name>
+  <DisplayName>OpenBabel Core Component</DisplayName>
+  <Description>Core OpenBabel library.</Description>
+  <Version>3.1.1</Version>
+  <ReleaseDate>2020-05-08</ReleaseDate>
+  <Default>true</Default>
+  <UpdateFile CompressedSize="1349733" UncompressedSize="4918369" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>644aba8fe92fd3a02803348de761cb15b46ad4ff</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>org.openssl.lib</Name>
+  <DisplayName>OpenSSL</DisplayName>
+  <Description>OpenSSL library.
+    This is required for using the WikiData query utility, as connections use HTTPS.
+    ATTENTION: be aware that there may be import restrictions in some countries prohibiting the use of this library!
+    See {external-link}='https://www.openssl.org'</Description>
+  <Version>1.1.1j</Version>
+  <ReleaseDate>2021-02-16</ReleaseDate>
+  <Default>true</Default>
+  <UpdateFile CompressedSize="1305096" UncompressedSize="4551403" OS="Any"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="ssl-licenses.txt" name="OpenSSL License/Original SSLeay License"/>
+  </Licenses>
+  <SHA1>ee918a06648662d6ae13aced46dfa3ae9215a05e</SHA1>
+ </PackageUpdate>
+ <SHA1>c937c50db79a501d148e0190bab4478d0e24125f</SHA1>
+ <MetadataName>2021-03-08-2203_meta.7z</MetadataName>
+</Updates>
