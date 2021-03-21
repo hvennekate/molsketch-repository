@@ -11,13 +11,13 @@
   <ForcedInstallation>true</ForcedInstallation>
   <ExpandedByDefault>true</ExpandedByDefault>
   <Script>molsketch-setup-actions.qs</Script>
-  <UpdateFile UncompressedSize="16331428" CompressedSize="5844932" OS="Any"/>
+  <UpdateFile UncompressedSize="16331428" OS="Any" CompressedSize="5844932"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
   <UserInterfaces>AssociateFileSuffixes.ui,CreateDesktopLink.ui</UserInterfaces>
   <Licenses>
    <License file="gpl-2-0.txt" name="GNU Public License Version 2"/>
   </Licenses>
-  <SHA1>45241e0b5d11e58f9a669988bc1c2c64cfd73489</SHA1>
+  <SHA1>1f704e62c8b20f3ac170ecabbddc978b66af4d60</SHA1>
  </PackageUpdate>
  <PackageUpdate>
   <Name>org.molsketch.openbabel.adapter</Name>
@@ -28,10 +28,10 @@
   <AutoDependOn>org.molsketch,org.openbabel</AutoDependOn>
   <Virtual>true</Virtual>
   <Script>adapter-registry-entry.qs</Script>
-  <UpdateFile UncompressedSize="16110120" CompressedSize="5255688" OS="Any"/>
+  <UpdateFile UncompressedSize="16110120" OS="Any" CompressedSize="5255688"/>
   <DownloadableArchives>content.7z</DownloadableArchives>
-  <SHA1>eaa17b4aab16c96c0f7bd3b7f9152b1a3e906d67</SHA1>
+  <SHA1>4587730f0bc214f95815e456f13a476c48ba15d9</SHA1>
  </PackageUpdate>
- <SHA1>cf69b47f9969656dfbf4a1c18f12e31f9a8f9bd9</SHA1>
- <MetadataName>2021-03-21-1551_meta.7z</MetadataName>
+ <SHA1>4c5b383cb7c2c42edd21c108561ba934bc77df1e</SHA1>
+ <MetadataName>2021-03-21-1554_meta.7z</MetadataName>
 </Updates>
