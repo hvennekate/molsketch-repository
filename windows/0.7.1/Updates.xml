@@ -1,7 +1,10 @@
 <Updates>
- <ApplicationName>{AnyApplication}</ApplicationName>
- <ApplicationVersion>1.0.0</ApplicationVersion>
+ <ApplicationName>Molsketch</ApplicationName>
+ <ApplicationVersion>0.7.1</ApplicationVersion>
  <Checksum>true</Checksum>
+ <RepositoryUpdate>
+  <Repository action="add" url="../0.7.2" displayname="Molsketch 0.7.2 Update"/>
+ </RepositoryUpdate>
  <PackageUpdate>
   <Name>org.molsketch</Name>
   <DisplayName>Molsketch</DisplayName>
