@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Updates>
+ <ApplicationName>Molsketch</ApplicationName>
+ <ApplicationVersion>0.8.1</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>org.molsketch</Name>
+  <DisplayName>Molsketch</DisplayName>
+  <Description>Molsketch main component</Description>
+  <Version>0.8.1</Version>
+  <ReleaseDate>2022-11-07</ReleaseDate>
+  <ForcedInstallation>true</ForcedInstallation>
+  <ExpandedByDefault>true</ExpandedByDefault>
+  <Replaces>org.openssl.lib</Replaces>
+  <Script>molsketch-setup-actions.qs</Script>
+  <UpdateFile OS="Any" CompressedSize="6895579" UncompressedSize="19461304"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <UserInterfaces>AssociateFileSuffixes.ui,CreateDesktopLink.ui</UserInterfaces>
+  <Licenses>
+   <License name="GNU Public License Version 2" file="gpl-2-0.txt"/>
+  </Licenses>
+  <SHA1>68c6e1b1dd3aa5be9d474f2cc027011762986630</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>org.molsketch.openbabel.adapter</Name>
+  <DisplayName>OpenBabel Adapter</DisplayName>
+  <Description>Small adapter library required for Molsketch to utilize OpenBabel.</Description>
+  <Version>0.8.1</Version>
+  <ReleaseDate>2022-11-07</ReleaseDate>
+  <AutoDependOn>org.molsketch,org.openbabel</AutoDependOn>
+  <Virtual>true</Virtual>
+  <Script>adapter-registry-entry.qs</Script>
+  <UpdateFile OS="Any" CompressedSize="5335340" UncompressedSize="15196732"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>0f4218dd6deb9c4a11198af4d262df05ddbbdc47</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>org.openbabel</Name>
+  <DisplayName>OpenBabel</DisplayName>
+  <Description>OpenBabel chemical toolbox. This component is required in order to import or export drawings from or to other chemical file formats and for cleaning up structures or importing structures from WikiData.
+    See: {external-link}='https://github.com/openbabel/openbabel'</Description>
+  <Version>3.1.1</Version>
+  <ReleaseDate>2020-05-08</ReleaseDate>
+  <Dependencies>org.molsketch</Dependencies>
+  <ExpandedByDefault>true</ExpandedByDefault>
+  <Default>true</Default>
+  <UpdateFile OS="Any" CompressedSize="0" UncompressedSize="0"/>
+  <Licenses>
+   <License name="GCC Runtime Exception" file="gcc-runtime-exception.txt"/>
+   <License name="Zope Public License" file="zpl.txt"/>
+   <License name="ZLib License" file="zlib.txt"/>
+  </Licenses>
+  <SHA1>31848b6eac5a5f8b5ea58cd835ea1fc2e0530193</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>org.openbabel.formats</Name>
+  <DisplayName>OpenBabel formats</DisplayName>
+  <Description>Chemical format library files (required for importing/exporting from/to various chemical file formats).</Description>
+  <Version>3.1.1</Version>
+  <ReleaseDate>2020-05-08</ReleaseDate>
+  <Dependencies>org.openbabel.mainlib</Dependencies>
+  <Default>true</Default>
+  <Script>openbabel-format-registry-entry.qs</Script>
+  <UpdateFile OS="Any" CompressedSize="1248118" UncompressedSize="8519208"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>bee917bd66c9dbd01619a9a9503aef32da08e81c</SHA1>
+ </PackageUpdate>
+ <PackageUpdate>
+  <Name>org.openbabel.mainlib</Name>
+  <DisplayName>OpenBabel Core Component</DisplayName>
+  <Description>Core OpenBabel library.</Description>
+  <Version>3.1.1</Version>
+  <ReleaseDate>2020-05-08</ReleaseDate>
+  <Default>true</Default>
+  <UpdateFile OS="Any" CompressedSize="1740232" UncompressedSize="5538420"/>
+  <DownloadableArchives>content.7z</DownloadableArchives>
+  <SHA1>6ebfa1ef056d3a39fb0a520d777b531758c39a50</SHA1>
+ </PackageUpdate>
+ <SHA1>7c395e7bb2d2e87bdac0643d2b977e597c3b87a9</SHA1>
+ <MetadataName>2024-02-25-1053_meta.7z</MetadataName>
+</Updates>
