@@ -1,8 +1,7 @@
-<?xml version="1.0"?>
 <Updates>
  <ApplicationName>Molsketch</ApplicationName>
  <ApplicationVersion>0.8.1</ApplicationVersion>
- <Checksum>true</Checksum>
+ <Checksum>true</Checksum><RepositoryUpdate><Repository action="add" url="../0.8.2" displayname="Molsketch 0.8.2 Update"/></RepositoryUpdate>
  <PackageUpdate>
   <Name>org.molsketch</Name>
   <DisplayName>Molsketch</DisplayName>
